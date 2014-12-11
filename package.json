@@ -252,6 +252,19 @@
 			"name" 			: "Visualforce Page",
 			"file_name"		: "ApexPage.page",
 			"description" 	: "Basic Visualforce Page template",
+			"author" 		: "Matt Newell",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Visualforce Page API Name",
+		            "default" 		: "MyVisualforcePageName"
+		        }
+		   ]
+		},
+		{
+			"name" 			: "HTML Visualforce Page",
+			"file_name"		: "ApexPageHTML.page",
+			"description" 	: "Visualforce Page HTML template",
 			"author" 		: "MavensMate",
 			"params" 		: [ 
 		        {   
